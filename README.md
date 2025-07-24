@@ -51,3 +51,8 @@ volumes:
 ```
 8. Uruchom kontenery redis
 `docker compose up -d`
+9. Sprawdź poprawność instalacji
+    1.  redis-cli -h 127.0.0.1 -p 6379 ping
+    2.   redis-cli -h 127.0.0.1 -p 6380 ping
+   
+    Powinieneś zobaczyć 2 razy odpowiedź PONG
