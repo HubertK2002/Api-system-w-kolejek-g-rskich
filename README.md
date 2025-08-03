@@ -85,4 +85,6 @@ listen 85;
 ```
 ### Instalacja zależności do projektu
 1. apt-get install composer
+2. apt install php-redis
+
    
