@@ -57,32 +57,6 @@ volumes:
     2. redis-cli -h 127.0.0.1 -p 6380 ping
    
    Powinieneś zobaczyć 2 razy odpowiedź PONG
-### Instalacja nginx
-1. apt-get install nginx
-2. w /etc/nginx/sites-available
-   1. Otwórz plik z konfiguracją
-      `vim file_name`
-   2. Uzupełnij zawartość
-```
-server {
-listen 85;
-    server_name sekretykodu.pl;
-    root /var/www/codeigniter/public;
-
-    index index.php index.html;
-
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
-
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php7.4-fpm.sock; # lub port: 127.0.0.1:9000
-        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-        include fastcgi_params;
-    }
-}
-```
 ### Instalacja zależności do projektu
 1. apt-get install composer
 2. apt install php-redis
