@@ -1,0 +1,6 @@
+tcp   LISTEN 0      4096           [::1]:9096          [::]:*    users:(("php8.2",pid=321256,fd=5))      
+tcp   LISTEN 0      4096           [::1]:9090          [::]:*    users:(("php8.2",pid=321296,fd=5))      
+tcp   LISTEN 0      4096           [::1]:9091          [::]:*    users:(("php8.2",pid=321474,fd=5))      
+tcp   LISTEN 0      4096           [::1]:9094          [::]:*    users:(("php8.2",pid=321721,fd=5))      
+tcp   LISTEN 0      4096           [::1]:9092          [::]:*    users:(("php8.2",pid=321265,fd=5))      
+tcp   LISTEN 0      4096           [::1]:9093          [::]:*    users:(("php8.2",pid=321554,fd=5))      
