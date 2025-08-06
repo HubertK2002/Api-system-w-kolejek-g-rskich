@@ -61,4 +61,9 @@ volumes:
 1. apt-get install composer
 2. apt install php-redis
 
+### Zadbanie o prawidłowe uprawnienia
+1. Katalog writable z repozytorium codeigniter musi mieć uprawnienia do zapisu
+
+        chmod go+w writable/
+
    
