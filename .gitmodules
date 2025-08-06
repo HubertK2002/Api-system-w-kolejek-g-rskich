@@ -1,3 +1,6 @@
 [submodule "codeigniter_api"]
 	path = codeigniter_api
 	url = https://github.com/HubertK2002/API-Codeigniter-kolejek-g-rskich
+[submodule "cli"]
+	path = cli
+	url = https://github.com/HubertK2002/CLI_kolejek-g-rskich
