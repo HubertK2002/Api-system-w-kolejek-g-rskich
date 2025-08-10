@@ -1,1 +1,1 @@
-netstat -tulnp | grep php
+lsof -i | grep php
