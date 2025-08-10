@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ../codeigniter_api
 chmod 777 writable
 cd writable

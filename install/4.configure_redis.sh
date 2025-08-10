@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ../
 mkdir redis_env
 cd redis_env
