@@ -1,0 +1,5 @@
+cd ../codeigniter_api
+chmod 777 writable
+cd writable
+chmod 777 logs
+cd ../../install
