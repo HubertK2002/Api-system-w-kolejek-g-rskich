@@ -17,6 +17,9 @@ server {
     listen $EXTERNAL_PORT;
     server_name $EXTERNAL_IP;
 
+    access_log /var/log/nginx/kolejka_gorska_access.log;
+    error_log /var/log/nginx/kolejka_gorska_error.log;
+
     location / {
 		if (\$request_method = 'OPTIONS') {
             add_header 'Access-Control-Allow-Origin' '*';
