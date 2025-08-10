@@ -1,5 +1,5 @@
 #!/bin/bash
-
+systemctl stop redis-server
 cd ../
 mkdir redis_env
 cd redis_env
@@ -25,4 +25,4 @@ volumes:
   redis_prod_data:
   redis_dev_data:" > docker-compose.yml
 docker compose up -d
-cd ../../install
+cd ../install
