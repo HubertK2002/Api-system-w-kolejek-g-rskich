@@ -4,6 +4,7 @@ apt-get install -y composer
 apt-get install -y php-xml
 apt install -y php-redis
 apt install -y net-tools
+apt install -y nginx
 cd ../cli
 composer install --no-interaction
 cd ../codeigniter_api
