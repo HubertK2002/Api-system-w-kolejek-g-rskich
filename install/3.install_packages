@@ -1,4 +1,11 @@
 apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 apt-get install -y redis
 apt-get install -y composer
+apt-get install -y php-xml
 apt install -y php-redis
+apt install -y net-tools
+cd ../cli
+composer install --no-interaction
+cd ../codeigniter_api
+composer install --no-interaction
+cd ../install
